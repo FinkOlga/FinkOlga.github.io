@@ -1,0 +1,405 @@
+
+@font-face{
+	font-family: Lato-Black;
+	src:url("../fonts/Lato-Black.woff") format("woff"), url("../fonts/Lato-Black.woff2") format("woff2");
+}
+@font-face{
+	font-family: Lato-Light;
+	src:url("../fonts/Lato-Light.woff") format("woff"), url("../fonts/Lato-Light.woff2") format("woff2");
+}
+@font-face{
+	font-family: Lato-Medium;
+	src:url("../fonts/Lato-Medium.woff") format("woff"), url("../fonts/Lato-Medium.woff2") format("woff2");
+}
+@font-face{
+	font-family: Lato_Regular;
+	src:url("../fonts/Lato_Regular.woff") format("woff"), url("../fonts/Lato_Regular.woff2") format("woff2");
+}
+@font-face{
+	font-family: Lato-Bold;
+	src:url("../fonts/Lato-Bold.woff") format("woff"), url("../fonts/Lato-Bold.woff2") format("woff2");
+}
+body{
+	background-color: #26C3F5;
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+
+}
+.wrap{
+	margin: 0 0 0 87px;
+	min-height: 900px;
+
+}
+.image2{
+	 background:url("../img/image2.png") no-repeat bottom center;
+	 min-height: inherit;
+	 height: inherit;
+	 background-size: 90%;
+}
+
+
+.strite{
+	background:url("../img/strite_up.png") no-repeat top,
+	url("../img/strite_down.png") no-repeat bottom;
+	background-size: 100%;
+	color: #fff;
+}
+.top{
+
+	background-color: #19A8CE;
+}
+header{
+	display: flex;
+	flex-wrap: wrap; 
+	padding: 26px 178px 1px 87px;
+
+}
+#top_menu{
+flex-grow: 1
+}
+#top_menu ul{
+	display:flex;
+	justify-content: flex-end; 
+	flex-wrap: wrap; 
+}
+
+#top_menu li{
+	font-family: Lato_Regular, arial, sans-serif;
+	font-size: 16px;
+	list-style: none;
+	padding: 0 16px 0 16px;
+}
+
+#top_menu a{
+	color: #fff;
+	text-decoration: none;
+}
+.were h1{
+	font-family: Lato-Bold;
+	font-size: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 110px;
+
+}
+.flex{
+	display: flex;
+	justify-content: center;
+}
+
+.flex a{
+	font-family: Lato-Bold;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #fff;
+	background: linear-gradient(180deg,#CEF624, #A0CC19);
+	padding: 17.5px 52px;
+	border-radius: 100px;
+	box-shadow: 0 5px 15px #117D99;
+	display: block;
+}
+
+
+
+/* Первая секция*/
+.one{
+	background: #fff url(../img/phone.png) no-repeat;
+	background-position: 102px 90px;
+	display: flex;
+	justify-content: center;
+}
+.conteiner{
+	max-width: 540px;
+	padding: 203px 10px 0 10px;
+}
+h2{
+font-family: Lato-Bold;
+	font-size: 28px;
+	text-transform: uppercase;	
+}
+.one h2{
+	color: #000;
+	
+}
+h2 .fa-heart{
+	font-size:15px;
+	color: #F60C15;
+}
+.text{
+	font-family: Lato-Light;
+	font-size: 15px;
+	color: #5B5B5B;
+
+}
+.icons img{
+	background: #A7CD2C;
+	border-radius: 50%;
+	padding: 20px;
+}
+.icons{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
+}
+.icon p{
+	text-align: center;
+	font-family: Lato-Bold;
+	color: #000;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+/*section two*/
+.two{
+	background:  url(../img/purple.png) no-repeat top, url(../img/purple_bottom.png) no-repeat bottom #462762;
+	color: #fff;
+	font-family: Lato-Bold;
+	background-size: 100%;
+	border-top: 0.1px solid transparent;
+
+}
+.two h2{
+	text-align: center;
+	padding-top: 130px;
+	padding-bottom: 100px;
+
+}
+.trees{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.trees2{
+	display:flex;
+	justify-content: center;
+	 }
+.tree{
+	max-width: 173px;
+	text-transform: uppercase;
+	font-size: 15px;
+	margin: 15px 40px 15px 40px;
+	text-align: center;
+}
+.tree img{
+	padding-bottom: 20px;
+}
+/*section three*/
+.three{
+	background: #fff url(../img/phone2.png) no-repeat bottom center;
+	border-top: 0.1px solid transparent;
+	display: flex;
+	justify-content: center;
+}
+.conteiner2{
+max-width: 400px;	
+}
+
+.three h2{
+	text-align: center;
+	padding-top: 400px;
+	padding-bottom: 50px;
+	color: #000;
+}
+	
+.three p{
+	font-family: Lato-Light;
+	font-size: 15px;
+	color: #000;
+	text-align: center;
+}
+.medium{
+	font-family: Lato-Medium;
+	color: #000;
+}
+.alex{
+	padding-top: 20px;
+}
+.four{
+	background-color: #19A8CE;
+	border: 0.1px solid transparent;
+
+}
+.letter{
+	background: url(../img/letter.png) no-repeat bottom;
+	background-size: 70% 90%;
+	min-height: 800px;
+}
+footer{
+	min-height: 100px;
+	background-color: #462762;
+	border-bottom: 1px solid transparent;
+	font-family: Lato-Light;
+	font-size: 13px;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 150px;
+}
+.four h2{
+	text-align: center;
+	padding-top: 200px;
+}
+.form{
+	display: flex;
+	justify-content: center;
+	font-family: Lato-Light;
+	font-size: 15px;
+	display: flex;
+}
+.fild{
+	width: 50vW;
+	height: 40px;
+	background: #19A8CE;
+	border: transparent;
+}
+hr{
+	height: 1px;
+	background: #fff;
+}
+
+.message{
+	font-family: Lato-Bold;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #fff;
+	background: linear-gradient(180deg,#CEF624, #A0CC19);
+	padding: 17.5px 52px;
+	border-radius: 100px;
+	box-shadow: 0 5px 15px #117D99;
+	border: transparent;
+	margin: 80px auto; 
+	text-align: center;
+	display: block;
+}
+
+footer a{
+color: #fff;
+text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1600px) {
+.one{
+	
+	background-size: 25%;
+}
+.conteiner{
+
+	padding-top:450px;
+}
+.one{
+	
+	background-position: 102px 20px;
+}
+}
+@media screen and (max-width: 1164px) {
+.image2{
+	 background-size: 100%;
+}
+.trees{
+	flex-wrap: wrap;
+}
+.two h2{
+	padding-top:50px;
+	padding-bottom: 10px;
+}
+.tree img{
+	padding-bottom: 10px;
+}
+.three{
+	background-size: 95% 99%;
+}
+.fild{
+	width: 40vW;
+}
+
+}
+
+
+
+@media screen and (max-width: 640px) {
+	.wrap{
+	margin: 0 0 0 0;
+	min-height: 100vh;
+}
+.letter{
+	min-height: 87vh;
+}
+footer{
+	min-height: 13vh;	
+}
+.were h1{	
+	padding-top: 0;
+}
+.icons img{
+	padding: 5px;
+}
+.conteiner{
+	padding-top: 190px;
+}
+.icons{
+	padding-top: 30px;
+}
+.tree img{
+	height: 140px;
+}
+.tree{
+	font-size: 10px;
+	margin: 0 20px 0 20px;
+	max-width: 124px;
+}
+.conteiner2{
+max-width:68%;	
+}
+.three h2{
+	padding-top: 300px;
+	padding-bottom: 20px;
+}
+.letter{
+	
+	background-size: 90% 90%;
+}
+footer{
+	
+	padding: 30px 50px;
+}
+
+}
+@media screen and (max-width: 380px) {
+	.three h2{
+	padding-top: 200px;
+	padding-bottom: 10px;
+}
+.alex{
+	padding-bottom: 5px;
+}
+
+}
+@media screen and (max-width: 350px) {
+
+.icons img{
+	height: 60px;
+}
+.conteiner{	
+	padding-top: 150px;
+}
+.icon p{
+	font-size: 10px;
+}
+.three h2{
+	padding-top: 150px;
+	padding-bottom: 10px;
+	font-size: 20px;
+}	
+}
